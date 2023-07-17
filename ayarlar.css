@@ -1,0 +1,147 @@
+*{
+	margin:0;
+	padding:0;
+}
+header{
+	margin: 0 px;
+	padding: 30 px;
+	background-color: dodgerblue;
+}
+header h1 {
+	margin: 0px;
+	padding: 50px;
+}
+header h1 a{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+}
+nav{
+	margin:0px;
+	padding:0px;
+	float: right;
+	background-color: dodgerblue;
+	display: block;
+    width: 1127px;
+}
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+	list-style: none;
+}
+nav ul li{
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	float: left;
+	text-align: center;
+}
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	margin: 0px;
+	padding: 20px 40px;
+	text-align:center;
+}
+nav ul li a:hover{
+	background-color: white;
+	color: dodgerblue;
+	transition-duration: 0.5s;
+	border-radius: 30px;
+}
+nav ul li ul{
+	display: none; 
+	width: 150px;
+	position: absolute;
+}
+nav ul li:hover ul{
+	display: block;
+}
+nav ul li ul li{
+	display: block
+	width: 150px;
+	background-color: dodgerblue;
+}
+nav ul li ul li a{
+	display: block;
+	width: 150px;
+	text-align: left;
+}
+.aktif {
+    background-color: white;
+    color: dodgerblue;
+}
+aside{
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 0px;
+	background-color: dodgerblue;
+}
+aside section{
+	margin:0px;
+	padding:0px;
+	width: 220px;
+	height: 620px;
+	background-color: dodgerblue;
+}
+aside section img{
+	margin: 0px;
+	padding: 0px;
+	width: 100px;
+	height:100px;
+	border-radius: 100px;
+	background-color: dodgerblue;
+	float: top;
+	position: relative;
+	top: 0%;
+	left: 70%;
+	margin-top: 15px;
+	margin-left: -100px;
+}
+aside section h2{
+	font-family: arial;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	margin-top: 10px;
+}
+aside section h3{
+	text-align: center;
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+aside section p{
+	color: white;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+.stil{
+      font-size: 15px;
+	  font-family: arial;
+      color: blue;
+	  height:250px;
+}
+.stil a{
+	margin: 15px;
+	padding: 15px;
+	text-decoration: none;
+	display: block;
+	color: white;
+	text-align: center;
+}	
+.stil a:hover{
+	background-color: white;
+	color: dodgerblue;
+	transition-duration: 0.5s;
+	border-radius: 30px;
+}

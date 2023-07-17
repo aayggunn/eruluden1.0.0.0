@@ -1,0 +1,9 @@
+[14-Jul-2023 19:16:43 Europe/Istanbul] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/eruluden/public_html/baglanti.php on line 9
+[14-Jul-2023 19:19:12 Europe/Istanbul] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/eruluden/public_html/baglanti.php on line 9
+[14-Jul-2023 19:44:15 Europe/Istanbul] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/eruluden/public_html/baglanti.php on line 9
+[14-Jul-2023 21:46:10 Europe/Istanbul] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/eruluden/public_html/baglanti.php on line 9
+[14-Jul-2023 21:53:54 Europe/Istanbul] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/eruluden/public_html/baglanti.php on line 9
+[14-Jul-2023 21:53:58 Europe/Istanbul] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/eruluden/public_html/baglanti.php on line 9
+[15-Jul-2023 00:00:20 Europe/Istanbul] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/eruluden/public_html/baglanti.php on line 9
+[15-Jul-2023 00:00:23 Europe/Istanbul] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/eruluden/public_html/baglanti.php on line 9
+[15-Jul-2023 12:09:10 Europe/Istanbul] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/eruluden/public_html/baglanti.php on line 9

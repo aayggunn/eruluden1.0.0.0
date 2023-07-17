@@ -1,0 +1,96 @@
+<?php
+
+	session_start();
+	
+	if(isset($_SESSION["kullanici_adi"]))
+	{
+		
+		
+	}
+	
+	
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa</title>
+    <link rel="stylesheet" href="anasayfa1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1><a href="anasayfa1.html">ERULUDEN</a></h1>
+            <label for="" class="yermenu"><a href="#" class="aktif">
+                    yeradi
+                </a>
+            </label>
+            <hr>
+            </hr>
+            <nav class="menu">
+                <ul>
+                    <li> <a class="aktif" href="anasayfa.html">
+                            <i class="fa-solid fa-house"></i>
+                            <label for="anasayfa" class="text">Anasayfa</label>
+                        </a></li>
+                    <li><a href="ilanlar.html"> <i class="fa-solid fa-rectangle-ad"></i> <label for="ilanlar"
+                                class="text">İlanlar</label> </a>
+                        <ul>
+                            <li><a href="ikinci_el_esya.html"> İkinci El Eşya </a></li>
+                            <li><a href="ev_arkadasi.html"> Ev Arkadaşı </a></li>
+                            <li><a href="ev_devretme.html"> Ev Devretme - Kiralama </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="duyurular.html"> <i class="fa-solid fa-bullhorn"></i> <label for="duyurular"
+                                class="text">Duyurular</label> </a> </li>
+                    <li><a href="ders_notu.html"> <i class="fa-regular fa-note-sticky"></i> <label for="sorular"
+                                class="text">Notlar</label></a> </li>
+                    <li><a href="kampus.html"> <i class="fa-regular fa-building"></i><label for="kampus"
+                                class="text">Kampus-Yurtlar</label> </a></li>
+
+                </ul>
+            </nav>
+            <section class="bolum1">
+                <input type="checkbox" id="check">
+                <aside class="bar">
+                    <label for="check" class="imglbl">
+                        <img src="Desert.jpg" alt="profil resmi" class="image">
+                    </label>
+                    
+                    <section>
+                        <img src="Desert.jpg" alt="profil resmi">
+                        <h2> İsim Soyisim</h2>
+                        <h3> @kullaniciadi </h3>
+                        <hr>
+                        </hr>
+                        <p> Elektrik - Elektronik Mühendisliği</p>
+                        <p> 1. Sınıf </p>
+                        <hr>
+                        </hr>
+                        <div class="stil">
+                            <a href="profil.html"> Profil </a>
+                            <a href="ayarlar.html"> Ayarlar </a>
+                            <a href="iletisim.html"> İletişim </a>
+                            <a href="hakkimizda.html"> Hakkımda </a>
+                            <a href="cikis.php"> Çıkış Yap </a>
+                        </div>
+                    </section>
+                </aside>
+            </section>
+
+    </div>
+
+
+
+</body>
+
+</html>
+  </body>
+  
+  
+  
+</html>
